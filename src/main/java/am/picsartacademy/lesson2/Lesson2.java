@@ -67,7 +67,18 @@ public class Lesson2 {
             }
         }
         System.out.println("zuyg tveri qanakn e - " + hashiv);
+        System.out.println();
+        System.out.println("___________________Homework 3-1_______________________");
 
+        int N = 20;
+
+        if (N >= 0 && N <= 21) {
+            for (int i = 1; i <= 10; i++) {
+                System.out.println(N + " * " + i + " = " + (N * i));
+            }
+        } else {
+            System.out.println("mutqagrvac tivy chi hamapatasxanum");
+        }
     }
 
 }
