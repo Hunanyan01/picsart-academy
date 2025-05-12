@@ -13,17 +13,16 @@ public class Lesson2 {
         for (int number : array1) { //tpum enq bolor tarery
             System.out.print(number + " ");
         }
-        System.out.println();
-        System.out.println("___________________Homework 1-2_______________________");
+        System.out.println("\n\n___________________Homework 1-2_______________________");
         int[] array2 = new int[1001];//2)stexcel 1000 texani zangvac ev tal arjeqner
 
         for (int i = 0; i < array2.length; i++) {
             array2[i] = i + 1;
             array2[i] = i;//zangvaci arjeqnery ev hacenery hamnknen
 
-            System.out.println("hasce - " + i + " zangvaci arjeq - " + array2[i]);
+            System.out.println("hasce - " + i + "    zangvaci arjeq - " + array2[i]);
         }
-        System.out.println("___________________Homework 1-3_______________________");
+        System.out.println("\n\n___________________Homework 1-3_______________________");
 
         int hashvel = 0; //3) -20 ic 20 tveri mijakayqum gtel em kentery ev tpel
         for (int i = -20; i <= 20; i++) {
@@ -32,10 +31,8 @@ public class Lesson2 {
                 System.out.print(i + " ");
             }
         }
-        System.out.println();
-        System.out.println("kent tveri qanaky  " + hashvel + " hat");
-        System.out.println();
-        System.out.println("___________________Homework 2-1_______________________");
+        System.out.println("\nkent tveri qanaky  " + hashvel + " hat e");
+        System.out.println("\n\n___________________Homework 2-1_______________________");
 
         //Homework 2
         //1)stexcel em zangvac vori arjeqnery bajanvum en 5-i
@@ -46,8 +43,8 @@ public class Lesson2 {
                 System.out.print(array3[i] + " ");
             }
         }
-        System.out.println();
-        System.out.println("___________________Homework 2-2_______________________");
+
+        System.out.println("\n\n___________________Homework 2-2_______________________");
         double[] array4 = {1.2, 1.99, 50.5, 24.12, 24.11, 99.50, 100.40, 10.99, 42.10, 9, 467.23, 50};
 
         for (int i = 0; i < array4.length; i++) {
@@ -55,8 +52,7 @@ public class Lesson2 {
                 System.out.print(array4[i] + " ");
             }
         }
-        System.out.println();
-        System.out.println("___________________Homework 2-3_______________________");
+        System.out.println("\n\n___________________Homework 2-3_______________________");
 
         int[] array5 = {1, 3, 5, 7, 10, 20, 30, 50, 51, -20, 15, 100, 250, 1000, 1020};
         int hashiv = 0;
@@ -67,8 +63,7 @@ public class Lesson2 {
             }
         }
         System.out.println("zuyg tveri qanakn e - " + hashiv);
-        System.out.println();
-        System.out.println("___________________Homework 3-1_______________________");
+        System.out.println("\n\n___________________Homework 3-1_______________________");
 
         int N = 20;
 
