@@ -65,7 +65,6 @@ public class Lesson2 {
         for (int i = 0; i < array5.length; i++) {
             if (array5[i] % 2 == 0) {
                 hashiv++;
-
             }
         }
         System.out.println("zuyg tveri qanakn e - " + hashiv);
@@ -84,6 +83,76 @@ public class Lesson2 {
         } else {
             System.out.println("mutqagrvac tivy chi hamapatasxanum");
         }
-    }
+        System.out.println("\n\n___________________(AI Task 8)_______________________");
+        System.out.println("Տպել բոլոր զույգ թվերը 1-ից մինչև 100։");
 
+        int[] array6 = new int[100];
+        for (int i = 1; i < array6.length; i = i + 2) {
+            array6[i] = i + 1;
+            System.out.print(array6[i] + " ");
+        }
+        System.out.println("\n\n___________________(AI Task 9)_______________________");
+        System.out.println("Տպել բոլոր թվերը 100-ից 1 նվազող հերթականությամբ։");
+
+
+        for (int i = 100; i >= 1; i--) {
+            System.out.print(i + " ");
+
+        }
+        System.out.println("\n\n___________________(AI Task 10)_______________________");
+        System.out.println(" Գտնել բոլոր թվերը 1-ից մինչև 200, որոնք բաժանվում են 3-ի և 5-ի։");
+
+        int[] array7 = new int[200];
+        for (int i = 1; i < array7.length; i++) {
+            array7[i] = i + 1;
+            if (array7[i] % 3 == 0 && array7[i] % 5 == 0) {
+                System.out.print(array7[i] + " ");
+            }
+        }
+        System.out.println("\n\n___________________(AI Task 11)_______________________");
+        System.out.println("Տպել բոլոր կենտ թվերը -50-ից մինչև 50։");
+
+        for (int i = -50; i <= 50; i++) {
+            if (i % 2 != 0) {
+                System.out.print(i + " ");
+            }
+        }
+        System.out.println("\n\n___________________(AI Task 12)_______________________");
+        System.out.println("Տրվել է թիվ՝ տպիր նրա բազմապատիկները մինչև 100։");
+
+        int bajaneliTib = 10;
+        for (int i = 1; i * bajaneliTib <= 100; i++) {
+            System.out.print(bajaneliTib * i + " ");
+        }
+        System.out.println("\n\n___________________(AI Task 13)_______________________");
+        System.out.println("Գումարել array-ի բոլոր տարրերը և տպել արդյունքը։");
+
+        int[] array8 = {2, 6, 99, 133, -200, 4, 6754, 645, 56, 645, 45, 2345, 3, -10000};
+        int gumar = 0;
+        for (int i = 0; i < array8.length; i++) {
+            gumar += array8[i];
+        }
+        System.out.println(gumar);
+        System.out.println("\n\n___________________(AI Task 14)_______________________");
+        System.out.println("Տրված է array՝ տպել միայն այն տարրերը, որոնք 100-ից փոքր են։");
+
+        int[] array9 = {3, 42, 34, 24, 21, 42, 14, 21, 421, 42, 1, 2, 110, 100, 2222, 44444, 6500, 7500};
+        for (int i = 0; i < array9.length; i++) {
+            if (array9[i] <= 100) {
+                System.out.print(array9[i] + " ");
+            }
+        }
+        System.out.println("\n\n___________________(AI Task 15)_______________________");
+        System.out.println("Տպել բոլոր տարրերը, որոնք ունեն զույգ ինդեքս և զույգ արժեք։");
+        int[] array10 = new int[100];
+
+        for (int i = 1; i < array10.length; i++) {
+            array10[i] = i * 5;
+        }
+        for (int i = 1; i < array10.length; i++) {
+            if (i % 2 == 0 && array10[i] % 2 == 0) {
+                System.out.println("index - " + i + " gtnvox arjeq - " + array10[i]);
+            }
+        }
+    }
 }
