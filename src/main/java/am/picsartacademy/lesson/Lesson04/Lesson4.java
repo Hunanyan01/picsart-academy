@@ -1,6 +1,6 @@
-package am.picsartacademy.lesson;
+package am.picsartacademy.lesson.Lesson04;
 
-public class Lesson04 {
+public class Lesson4 {
     public static void main(String[] args) {
         ;
         int[] array = new int[]{3, 5, 21, 32, 312321, 44, -7};
