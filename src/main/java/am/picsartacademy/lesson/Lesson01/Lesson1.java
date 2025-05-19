@@ -1,6 +1,6 @@
 package am.picsartacademy.lesson;
 
-public class Lesson1 {
+public class Lesson01 {
     public static void main(String[] args) {
         System.out.println("\n\nHello, Picsart Academy!");
         System.out.println("\nToday we are learning Java.");
