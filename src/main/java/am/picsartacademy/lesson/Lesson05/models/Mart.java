@@ -7,6 +7,7 @@ public class Mart {
     public boolean apahovagir;
 
 
+
     public void tsanotacnel() {
         System.out.println("es " + anun + " " + azganun + " em , " + tariq + " tarekan։");
 
@@ -15,5 +16,7 @@ public class Mart {
         } else {
             System.out.println("Chem apahovagrvac ");
         }
+
+
     }
 }
