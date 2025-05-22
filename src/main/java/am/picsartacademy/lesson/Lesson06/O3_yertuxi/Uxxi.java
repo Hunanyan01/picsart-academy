@@ -6,12 +6,20 @@ import java.util.List;
 
 public class Uxxi {
     private List<Kangar> kangarner;
-    public Uxxi(){
-        this.kangarner =  new ArrayList<>();
+    public Uxxi(List<Kangar> kangarner) {
+        this.kangarner =  kangarner;
     }
 
     public void avelacnelKangar(Kangar k){
         kangarner.add(k);
+    }
+
+    public void removeKangar(Kangar k){
+        kangarner.remove(k);
+    }
+
+    public List<Kangar> getKangars(){
+        return kangarner;
     }
 
     public void tpelKangarner(){

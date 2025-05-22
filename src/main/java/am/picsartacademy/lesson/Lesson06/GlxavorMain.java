@@ -15,15 +15,16 @@ public class GlxavorMain {
         Kangar a1 = new Kangar("Tumanyan");
         Kangar a2 = new Kangar("Komitas");
         Kangar a3 = new Kangar("Eraz");
+        List<Kangar> kangarner = new ArrayList<>();
+        kangarner.add(a1);
+        kangarner.add(a2);
+        kangarner.add(a3);
 
-        Uxxi uxi = new Uxxi();
-        uxi.avelacnelKangar(a1);
-        uxi.avelacnelKangar(a2);
-        uxi.avelacnelKangar(a3);
+
+        Uxxi uxi = new Uxxi(kangarner);
         System.out.println("\n\n");
-        Avtobus bus = new Avtobus("Bus #1", 44);//AVTOBUSSS
-        bus.setMashrut(uxi);
-        // bus.tpelMarshruty();
+        Avtobus bus = new Avtobus("Bus #1", 44, uxi);//AVTOBUSSS
+
         bus.varel();
 
         AvtoMeqena meqena = new AvtoMeqena("BMW", 120);//AVTOMEQENA
@@ -37,38 +38,38 @@ public class GlxavorMain {
         Skuter skuter = new Skuter("shat lav firmai", 25);
         skuter.varel();
 
-        List<KareliEVarel> var = new ArrayList<>();
-        var.add(new Avtobus("Yerevan bus", 45));
-        var.add(new AvtoMeqena("BMW", 120));
-        var.add(new Samakat("MicroSamakat", 15));
-
-        System.out.println("\n\n");
-        for (KareliEVarel v : var) {
-            v.varel();
-        }
-        System.out.println("_________________________________");
-
-        Varord v = new Varord("Ashot", 39);
-        Avtobus b = new Avtobus("Bus 5", 60);
-        Avtobus e = new Avtobus("Bus 40", 76);
-        Avtobus w = new Avtobus("Bus 15", 90);
-        Avtobus q = new Avtobus("Bus 1", 120);
-        b.setVarord(v);
-        e.setVarord(v);
-        w.setVarord(v);
-        q.setVarord(v);
-
-
-        b.avelacnelUxevor(new Uxevor("Anna", 25));
-        b.avelacnelUxevor(new Uxevor("Davit", 22));
-        b.avelacnelUxevor(new Uxevor("Karen", 30));
-        b.avelacnelUxevor(new Uxevor("Lilit", 27));
-
-        b.tpelUghevorner();
-        b.tpelInfo();
-        e.tpelInfo();
-        w.tpelInfo();
-        q.tpelInfo();
+//        List<KareliEVarel> var = new ArrayList<>();
+//        var.add(new Avtobus("Yerevan bus", 45));
+//        var.add(new AvtoMeqena("BMW", 120));
+//        var.add(new Samakat("MicroSamakat", 15));
+//
+//        System.out.println("\n\n");
+//        for (KareliEVarel v : var) {
+//            v.varel();
+//        }
+//        System.out.println("_________________________________");
+//
+//        Varord v = new Varord("Ashot", 39);
+//        Avtobus b = new Avtobus("Bus 5", 60);
+//        Avtobus e = new Avtobus("Bus 40", 76);
+//        Avtobus w = new Avtobus("Bus 15", 90);
+//        Avtobus q = new Avtobus("Bus 1", 120);
+//        b.setVarord(v);
+//        e.setVarord(v);
+//        w.setVarord(v);
+//        q.setVarord(v);
+//
+//
+//        b.avelacnelUxevor(new Uxevor("Anna", 25));
+//        b.avelacnelUxevor(new Uxevor("Davit", 22));
+//        b.avelacnelUxevor(new Uxevor("Karen", 30));
+//        b.avelacnelUxevor(new Uxevor("Lilit", 27));
+//
+//        b.tpelUghevorner();
+//        b.tpelInfo();
+//        e.tpelInfo();
+//        w.tpelInfo();
+//        q.tpelInfo();
 
 
 //        b.tpelInfo();
