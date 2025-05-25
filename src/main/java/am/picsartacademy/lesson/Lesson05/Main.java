@@ -9,7 +9,7 @@ import am.picsartacademy.lesson.Lesson05.models.Mart;
 public class Main {
     public static void main(String[] args) {
         Bjishk doctor = new Bjishk();
-        doctor.anun = "Anna";
+        doctor.anun = "Annaa";
         doctor.azganun = "Khachatryann";
         doctor.tariq = 40;
         doctor.masnagitutyun = "Terapevt";
