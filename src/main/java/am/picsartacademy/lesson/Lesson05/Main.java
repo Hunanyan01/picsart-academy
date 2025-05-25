@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         Bjishk doctor = new Bjishk();
         doctor.anun = "Anna";
-        doctor.azganun = "Khachatryan";
+        doctor.azganun = "Khachatryann";
         doctor.tariq = 40;
         doctor.masnagitutyun = "Terapevt";
         doctor.apahovagir = true;
