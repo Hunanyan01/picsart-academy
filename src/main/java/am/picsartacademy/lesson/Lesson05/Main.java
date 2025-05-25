@@ -17,7 +17,7 @@ public class Main {
 
         Hivand patient = new Hivand();
         patient.anun = "Davit";
-        patient.azganun = "Hunanyan";
+        patient.azganun = "Hunanyaan";
         patient.tariq = 25;
         patient.hivandutyun = "Glxacav ";
         patient.apahovagir = false;
