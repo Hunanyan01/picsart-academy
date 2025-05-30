@@ -35,3 +35,9 @@ public class Order {
     }
 
 }
+
+//qasterneymi poxarnen sarqenq anun azganun heraxos hasce
+//odery kunena qastmer
+//qastm petqa sarqenq
+//mainum sarqum enq orderneri yrey
+//u sarqac orderrnery lcenqn yrneri mech //grenq forich cik u mi toxov tpenq bolor orderneri summernery//dranic heto stugenq arreyi mechi vory vo exspes order en tpenq mechinery ,exspress ordernery arandzin peqa tpenq

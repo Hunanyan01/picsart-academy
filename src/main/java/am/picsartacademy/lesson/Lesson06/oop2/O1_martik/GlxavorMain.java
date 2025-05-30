@@ -1,13 +1,11 @@
-package am.picsartacademy.lesson.Lesson06;
+package am.picsartacademy.lesson.Lesson06.oop2.O1_martik;
 
 import java.util.List;
 import java.util.ArrayList;
 
-import am.picsartacademy.lesson.Lesson06.O4_gorcoxutyunner.KareliEVarel;
-import am.picsartacademy.lesson.Lesson06.O2_transport.*;
-import am.picsartacademy.lesson.Lesson06.O3_yertuxi.Kangar;
-import am.picsartacademy.lesson.Lesson06.O3_yertuxi.Uxxi;
-import am.picsartacademy.lesson.Lesson06.O1_martik.*;
+import am.picsartacademy.lesson.Lesson06.oop2.O3_yertuxi.Kangar;
+import am.picsartacademy.lesson.Lesson06.oop2.O3_yertuxi.Uxxi;
+import am.picsartacademy.lesson.Lesson06.oop2.O2_transport.*;
 
 
 public class GlxavorMain {

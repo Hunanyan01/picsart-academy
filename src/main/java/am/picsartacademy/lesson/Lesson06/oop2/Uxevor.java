@@ -1,5 +1,4 @@
-package am.picsartacademy.lesson.Lesson06.O1_martik;
-import am.picsartacademy.lesson.Lesson06.*;
+package am.picsartacademy.lesson.Lesson06.oop2;
 
 public class Uxevor {
     private String anun;

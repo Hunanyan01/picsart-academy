@@ -1,4 +1,4 @@
-package am.picsartacademy.lesson.Lesson06.O3_yertuxi;
+package am.picsartacademy.lesson.Lesson06.oop2.O3_yertuxi;
 
 public class Kangar {
     private String anun; // կանգառի անուն

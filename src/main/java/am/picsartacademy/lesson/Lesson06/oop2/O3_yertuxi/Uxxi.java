@@ -1,6 +1,5 @@
-package am.picsartacademy.lesson.Lesson06.O3_yertuxi;
+package am.picsartacademy.lesson.Lesson06.oop2.O3_yertuxi;
 
-import java.util.ArrayList;
 import java.util.List;
 
 

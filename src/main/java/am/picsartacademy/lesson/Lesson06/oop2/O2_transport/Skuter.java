@@ -1,4 +1,4 @@
-package am.picsartacademy.lesson.Lesson06.O2_transport;
+package am.picsartacademy.lesson.Lesson06.oop2.O2_transport;
 
 public class Skuter extends TransportayinMijoc{
 

@@ -1,9 +1,9 @@
-package am.picsartacademy.lesson.Lesson05;
+package am.picsartacademy.lesson.Lesson05.oop1;
 
-import am.picsartacademy.lesson.Lesson05.models.Bjishk;
-import am.picsartacademy.lesson.Lesson05.models.Hivand;
-import am.picsartacademy.lesson.Lesson05.models.Hivandanoc;
-import am.picsartacademy.lesson.Lesson05.models.Mart;
+import am.picsartacademy.lesson.Lesson05.oop1.models.Bjishk;
+import am.picsartacademy.lesson.Lesson05.oop1.models.Hivand;
+import am.picsartacademy.lesson.Lesson05.oop1.models.Hivandanoc;
+import am.picsartacademy.lesson.Lesson05.oop1.models.Mart;
 
 
 public class Main {

@@ -1,7 +1,4 @@
-package am.picsartacademy.lesson.Lesson05.models;
-
-import am.picsartacademy.lesson.Lesson05.models.Bjishk;
-import am.picsartacademy.lesson.Lesson05.models.Hivand;
+package am.picsartacademy.lesson.Lesson05.oop1.models;
 
 public class Hivandanoc {
     public Bjishk bjishk;

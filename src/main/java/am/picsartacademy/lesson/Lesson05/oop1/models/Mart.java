@@ -1,4 +1,4 @@
-package am.picsartacademy.lesson.Lesson05.models;
+package am.picsartacademy.lesson.Lesson05.oop1.models;
 
 public class Mart {
     public String anun;

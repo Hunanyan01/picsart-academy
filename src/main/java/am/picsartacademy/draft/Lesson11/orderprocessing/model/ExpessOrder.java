@@ -14,6 +14,6 @@ public class ExpessOrder extends Order implements DeliverAble{
     @Override
     public void printSummery(){
         super.printSummery();
-        System.out.println(" Type: Exspess Order. Delivery Price $ "+calculateDeliveryPrace());
+        System.out.println(" Type: Exspess Order. Delivery Price AMD "+calculateDeliveryPrace());
     }
 }

@@ -1,7 +1,6 @@
-package am.picsartacademy.lesson.Lesson06.O2_transport;
+package am.picsartacademy.lesson.Lesson06.oop2.O2_transport;
 
-import am.picsartacademy.lesson.Lesson06.O3_yertuxi.Uxxi;
-import am.picsartacademy.lesson.Lesson06.O4_gorcoxutyunner.KareliEVarel;
+import am.picsartacademy.lesson.Lesson06.oop2.O4_gorcoxutyunner.KareliEVarel;
 
 public class AvtoMeqena extends TransportayinMijoc implements KareliEVarel {
 

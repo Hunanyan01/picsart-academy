@@ -1,4 +1,4 @@
-package am.picsartacademy.lesson.Lesson06.O1_martik;
+package am.picsartacademy.lesson.Lesson06.oop2;
 
 public class Varord {
     private String anun;
