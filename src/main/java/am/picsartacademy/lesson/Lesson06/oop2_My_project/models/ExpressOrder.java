@@ -10,7 +10,7 @@ public class ExpressOrder extends Order implements Deliverable {
 
     @Override
     public double getDeliveryPrice() {
-        return getOrderId() * 0.1;
+        return getOrderId() * 10;
     }
 
     @Override

@@ -60,21 +60,28 @@ public class Marketplace {
         for (int i = 0; i < text.length(); i++) {
             System.out.print(text.charAt(i) + " ");
         }
-        int hashvich =0;
+        int hashvich = 0;
         for (int i = 0; i < text.length(); i++) {
-            if (text.charAt(i)=='l')
+            if (text.charAt(i) == 'l')
                 hashvich++;
         }
         System.out.println();
         System.out.println(hashvich);
 
 
-
         ExpressOrder eo = new ExpressOrder();
-        eo.setOrderId(20);
+        eo.setOrderId(10);
         System.out.println("Order Name: " + eo.getOrderName());
         System.out.println("Delivery Price: AMD " + eo.getDeliveryPrice());
 
+        //sarrqum enq adrees u qastmrin talis enq voshte ades objext ayl sting,
+        //iqsebshen enq sarqum,ete erkiry vrastana iqsebshen enq qcum (case)vor iran chenq kaa delivr anenq
+        //ete giny (ship metod vory uxarkeluya shpmnti ete et metody stugi vor bacasakana iqsebshn enq qcelu vor peymnty avac chi
+        //ete bacasakana email uxarki ,tre cachov grvi vor uzer uxarki u email
+        //order sarqenq vory vorr bacaskaan lini vory vor ship aneluc asi vor iqsepshn unenq
 
+        //sarqum enq peymn iqsepshn kasenq vor peymnty arvac chi
+        //ayn taym iqsepshn ,chgidenq bacasakan klini te che ,kgrenq ship metot get kani ete ordrri praicy bacasakana iqsepsh tro kanin,meinum ete sarqenq trolow vor bacasakan lini kbrnenq u kasenq peymnt ches ael normal ara
+        //
     }
 }
