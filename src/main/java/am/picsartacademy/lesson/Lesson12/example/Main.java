@@ -66,6 +66,7 @@ public class Main {
         System.out.println("Orders total: " + totalOrders);
         System.out.println("Express: " + expressOrderCount);
         System.out.println("International: " + interOrderCount);
+        System.out.println("International: " + interOrderCount);
 
 
     }
