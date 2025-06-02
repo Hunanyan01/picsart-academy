@@ -1,4 +1,4 @@
-package am.picsartacademy.lesson.Lesson05.oop1_My_project.models;
+package am.picsartacademy.draft.Lesson11.example.models;
 
 public class Customer {
     private String firstName;
@@ -12,14 +12,12 @@ public class Customer {
                     String email,
                     String phone,
                     String address) {
-
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.phone = phone;
         this.address = address;
     }
-
     public String getFirstName() {
         return firstName;
     }

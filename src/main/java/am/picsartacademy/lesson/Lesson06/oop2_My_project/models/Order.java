@@ -40,7 +40,6 @@ public class Order {
     }
 
     public void setProducts(String kosmetik, String Game, String cloth) {
-
         System.out.println();
     }
 

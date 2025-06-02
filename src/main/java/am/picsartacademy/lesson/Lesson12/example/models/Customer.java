@@ -1,18 +1,20 @@
-package am.picsartacademy.lesson.Lesson05.oop1_My_project.models;
+package am.picsartacademy.lesson.Lesson12.example.models;
 
 public class Customer {
+
+    //gaxni tvyalner mer Customer-i masin
     private String firstName;
     private String lastName;
     private String email;
     private String phone;
     private String address;
 
+    //mer kontruktory ir bolor tvyalnerov
     public Customer(String firstName,
                     String lastName,
                     String email,
                     String phone,
                     String address) {
-
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
@@ -20,10 +22,12 @@ public class Customer {
         this.address = address;
     }
 
+    //get ev set veracum vor heto karoxananq clasic dus kanchel
     public String getFirstName() {
         return firstName;
     }
 
+    //popoxel enq mer set-@
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
@@ -60,9 +64,13 @@ public class Customer {
         this.address = address;
     }
 
+    //uzum enq tpel hachaxordi tvyalnbery
     public void printSummary() {
-        System.out.println("Customer: " + firstName + " "
-                + lastName + " " + email + " "
-                + phone + " " + address);
+        System.out.println("Customer: "
+                + firstName + " "
+                + lastName + " "
+                + email + " "
+                + phone + " "
+                + address);
     }
 }
