@@ -7,14 +7,15 @@ public class Customer {
     private String lastName;
     private String email;
     private String phone;
-    private String address;
+    private Address address;
+
 
     //mer kontruktory ir bolor tvyalnerov
     public Customer(String firstName,
                     String lastName,
                     String email,
                     String phone,
-                    String address) {
+                    Address address) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
@@ -56,11 +57,11 @@ public class Customer {
         this.phone = phone;
     }
 
-    public String getAddress() {
+    public Address getAddress() {
         return address;
     }
 
-    public void setAddress(String address) {
+    public void setAddress(Address address) {
         this.address = address;
     }
 
@@ -71,6 +72,14 @@ public class Customer {
                 + lastName + " "
                 + email + " "
                 + phone + " "
-                + address);
+                + address.getCountry() + " "
+                + address.getCity());
+    }
+
+    @Override
+    public String toString() {
+        return firstName + " | " + lastName + " | " + email + " | " + phone + " | " + address;
+
+
     }
 }

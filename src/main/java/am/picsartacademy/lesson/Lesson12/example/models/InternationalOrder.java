@@ -21,7 +21,7 @@ public class InternationalOrder extends Order implements Deliverable {
     //mijazgayin araqman hasaneliutyan stugum
     @Override
     public boolean isAvailableForDelivery() {
-        if (customer.getAddress().toLowerCase().contains("paris")) {
+        if (customer.getAddress().getCity().equalsIgnoreCase("paris")) {
             return false;
         }
         return price >= 1000;
