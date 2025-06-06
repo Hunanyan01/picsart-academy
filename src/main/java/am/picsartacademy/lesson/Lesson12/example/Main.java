@@ -121,21 +121,23 @@ public class Main {
                 order.getCustomer().printSummary();
                 order.printSummery();
                 //stugum enq araqvox orderneri vichaky
-                if (order instanceof Deliverable) {
+                try {
                     Deliverable d = (Deliverable) order;
 
                     if (d.isAvailableForDelivery()) {
                         System.out.println("Delivery:  Possible");
                         System.out.println("----------------------------------------------------------------------------------------------------------------------");
-
                     } else {
                         System.out.println("Delivery:  Not available");
                         System.out.println("----------------------------------------------------------------------------------------------------------------------");
-
                     }
 
                     System.out.println("Estimated time: " + d.getDeliveryEstimate());
 
+                } catch (ClassCastException e) {
+                    System.out.println("Order is not deliverable: " + e.getMessage());
+                } catch (Exception e) {
+                    System.out.println("Error while checking delivery info: " + e.getMessage());
                 }
 
             } catch (Exception e) {
