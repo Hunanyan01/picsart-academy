@@ -8,6 +8,7 @@ public interface Deliverable {
     boolean isAvailableForDelivery();
     //teqsta veradarcnum gnahatvac araqman arjeqi hamar
     String getDeliveryEstimate();
+    int completer (Order o);
 
 
 }
