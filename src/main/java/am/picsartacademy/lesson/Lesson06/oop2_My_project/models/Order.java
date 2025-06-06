@@ -4,7 +4,7 @@ public class Order {
     private Product[] products;
     private String status;
     private int orderId;
-    private String orderName = "Premyum Oder";
+    private String orderName = "Premium Order";
 
     public String getOrderName() {
         return orderName;

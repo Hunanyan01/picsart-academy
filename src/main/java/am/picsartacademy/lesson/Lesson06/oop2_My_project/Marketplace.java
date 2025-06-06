@@ -42,7 +42,7 @@ public class Marketplace {
         for (Product p : products) {
             System.out.print("Name -" + p.getName() + "\n");
             System.out.print("Price -" + p.getPrice() + "\n");
-            System.out.print("Available -" + p.getId() + "\n");
+            System.out.print("Available -" + p.isAvailable() + "\n");
             System.out.println("---------------------------------");
         }
         System.out.println(o1.getOrderName());
@@ -50,8 +50,8 @@ public class Marketplace {
         c1.setName("Poxos");
         c1.setLoyaltyPoints(5);
 
-        System.out.println("Customer Name -" + c1.getLoyaltyPoints());
-        System.out.println("Status -" + c1.getName());
+        System.out.println("Customer Name -" + c1.getName());
+        System.out.println("Loyalty Points -" + c1.getLoyaltyPoints());
 
 
         String text = "Helllllllo word ";

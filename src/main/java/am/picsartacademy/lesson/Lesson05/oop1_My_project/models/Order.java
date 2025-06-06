@@ -6,7 +6,7 @@ public class Order {
     private am.picsartacademy.lesson.Lesson06.oop2_My_project.models.Product[] products;
     private String status;
     private int orderId;
-    private String orderName = "Premyum Oder";
+    private String orderName = "Premium Order";
 
     public String getOrderName() {
         return orderName;
@@ -59,7 +59,7 @@ public class Order {
     }
 
     public void sum(int a, int b, int c) {
-        System.out.println(a + b);
+        System.out.println(a + b + c);
     }
 
     public void f(int a) {

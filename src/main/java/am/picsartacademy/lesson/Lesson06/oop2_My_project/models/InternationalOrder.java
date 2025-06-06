@@ -9,7 +9,7 @@ public class InternationalOrder extends Order implements Deliverable {
 
     @Override
     public String getOrderName() {
-        return "Internationall Order #" + getOrderId();
+        return "International Order #" + getOrderId();
     }
 
 
