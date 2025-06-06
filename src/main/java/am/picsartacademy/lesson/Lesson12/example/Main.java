@@ -177,7 +177,4 @@ public class Main {
     }
 }
 
-//kastrmeyneri list enq bacum
-//nenc hnaravorutyuneri vor adresnerov hamarnerov yst cauntri u yst cyti
 
-//erku klas costmer adress
